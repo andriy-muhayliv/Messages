@@ -1,0 +1,36 @@
+* {
+  text-decoration: none;
+}
+.main {
+  height: 70px;
+  width: 100%;
+  margin-left: 10px;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  margin-left: 5px;
+}
+.content {
+  display: flex;
+}
+.content__text {
+  margin-left: 5px;
+  color: #4e4e4e;
+}
+
+.date {
+  color: #818181;
+  margin-right: 15px;
+}
+
+.hide {
+  display: none;
+}

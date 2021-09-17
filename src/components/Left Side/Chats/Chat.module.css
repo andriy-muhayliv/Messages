@@ -1,0 +1,22 @@
+.main {
+  height: 80%;
+}
+
+h2 {
+  color: #60b1e0;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.chats__container {
+  display: block;
+  height: calc(100% - 20%);
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+/* хром, сафари */
+.chats__container::-webkit-scrollbar {
+  width: 0;
+}
